@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "nombre": "Smartphone",
+      "descripcion": "Un teléfono inteligente con pantalla táctil, cámara de alta resolución y conexión a Internet."
+    },
+    {
+      "id": 2,
+      "nombre": "Laptop",
+      "descripcion": "Una computadora portátil potente con procesador de última generación y pantalla de alta definición."
+    },
+    {
+      "id": 3,
+      "nombre": "Smart TV",
+      "descripcion": "Un televisor inteligente con capacidades de transmisión en línea y resolución 4K."
+    },
+    {
+      "id": 4,
+      "nombre": "Tablet",
+      "descripcion": "Una tablet ligera y versátil con pantalla táctil y batería de larga duración."
+    },
+    {
+      "id": 5,
+      "nombre": "Cámara DSLR",
+      "descripcion": "Una cámara réflex digital de alta gama con funciones avanzadas y calidad de imagen excepcional."
+    },
+    {
+      "id": 6,
+      "nombre": "Auriculares Inalámbricos",
+      "descripcion": "Auriculares Bluetooth con cancelación de ruido y calidad de sonido envolvente."
+    }
+  ]
+  
