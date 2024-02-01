@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automático</title>
+    
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="script.js"></script>
+    <h1>Cajero Automático</h1>
+
+    <p>Saldo actual: <span id="saldo">0</span></p>
+
+    <form id="transaccionForm">
+        <label for="tipoTransaccion">Tipo de Transacción:</label>
+        <select id="tipoTransaccion" name="tipoTransaccion">
+            <option value="deposito">Depósito</option>
+            <option value="retiro">Retiro</option>
+        </select>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+        <button type="button" onclick="realizarTransaccion()">Realizar Transacción</button>
+    </form>
+
+    <table id="historialTabla"></table>
+
+    <script>
+        window.onload = function() {
+            mostrarSaldo();
+            mostrarHistorial();
+        };
+    </script>
+</body>
+</html>
